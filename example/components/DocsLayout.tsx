@@ -66,7 +66,7 @@ export function DocsLayout({ children, currentPage, onPageChange }: DocsLayoutPr
             </div>
             <div className="flex items-center gap-3">
               <a
-                href="https://github.com"
+                href="https://github.com/trappistt/x402-react"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hidden sm:inline text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
@@ -74,7 +74,7 @@ export function DocsLayout({ children, currentPage, onPageChange }: DocsLayoutPr
                 GitHub
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/trappistt/x402-react"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="sm:hidden p-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-md transition-colors"
@@ -177,13 +177,25 @@ export function DocsLayout({ children, currentPage, onPageChange }: DocsLayoutPr
               </p>
               <div className="flex items-center gap-4">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/trappistt/x402-react"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-sm text-gray-600 hover:text-gray-900"
                 >
                   GitHub
                 </a>
                 <a
+                  href="https://www.npmjs.com/package/x402-react"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-gray-600 hover:text-gray-900"
+                >
+                  npm
+                </a>
+                <a
                   href="https://www.coinbase.com/developer-platform/products/x402"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-sm text-gray-600 hover:text-gray-900"
                 >
                   x402 Docs

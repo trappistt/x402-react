@@ -167,7 +167,7 @@ export function DashboardLayout({ children, currentPage, onPageChange }: Dashboa
                 </button>
               </nav>
               <a
-                href="https://github.com"
+                href="https://github.com/trappistt/x402-react"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-md transition-colors"
