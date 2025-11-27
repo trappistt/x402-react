@@ -20,13 +20,15 @@
     "noImplicitAny": false
   },
   "include": [
-    "./**/*.ts",
-    "./**/*.tsx"
+    "**/*.ts",
+    "**/*.tsx"
   ],
   "exclude": [
     "node_modules",
-    "dist",
-    "../src/**/*"
-  ]
+    "dist"
+  ],
+  "ts-node": {
+    "skipIgnore": false
+  }
 }
 
