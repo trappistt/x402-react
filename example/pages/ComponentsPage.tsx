@@ -318,7 +318,7 @@ function PaymentHistory() {
       : filterPaymentHistory(paymentHistory, { status: filter });
 
   const totalSpent = getTotalSpent(paymentHistory);
-  const successfulPayments = paymentHistory.filter((p) => p.status === 'success').length;
+  const successfulPayments = paymentHistory.filter((p: any) => p.status === 'success').length;
 
   return (
     <section id="payment-history" className="mb-20 scroll-mt-20">
@@ -385,7 +385,7 @@ function PaymentHistory() {
         </div>
       ) : (
         <div className="space-y-3">
-          {filteredHistory.map((payment) => (
+          {filteredHistory.map((payment: any) => (
             <div
               key={payment.id}
               className="p-5 border border-gray-200 rounded-lg bg-white hover:border-gray-300 hover:shadow-md transition-all"

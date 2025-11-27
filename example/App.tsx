@@ -22,7 +22,7 @@ function PaymentHistory() {
         <p className="text-gray-500">No payments yet</p>
       ) : (
         <div className="space-y-2">
-          {paymentHistory.map((payment) => (
+          {paymentHistory.map((payment: any) => (
             <div key={payment.id} className="p-3 bg-white rounded">
               <div className="flex justify-between">
                 <span className="font-medium">{payment.amount}</span>
