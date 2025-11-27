@@ -1,5 +1,5 @@
 {
-  "name": "@micropay/react",
+  "name": "x402-react",
   "version": "0.1.0",
   "description": "React component library for Coinbase x402 HTTP 402 payments",
   "type": "module",
@@ -36,12 +36,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_USERNAME/micropay-react.git"
+    "url": "git+https://github.com/trappistt/x402-react.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/micropay-react/issues"
+    "url": "https://github.com/trappistt/x402-react/issues"
   },
-  "homepage": "https://github.com/YOUR_USERNAME/micropay-react#readme",
+  "homepage": "https://github.com/trappistt/x402-react#readme",
   "peerDependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0"

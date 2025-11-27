@@ -29,7 +29,7 @@ export function DocsLayout({ children, currentPage, onPageChange }: DocsLayoutPr
                   alt="x402" 
                   className="h-7 w-auto object-contain"
                 />
-                <span className="hidden sm:inline text-xl font-semibold text-gray-900">@micropay/react</span>
+                <span className="hidden sm:inline text-xl font-semibold text-gray-900">x402-react</span>
               </button>
               <nav className="hidden md:flex items-center gap-6">
                 <button

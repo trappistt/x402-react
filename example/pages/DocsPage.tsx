@@ -55,7 +55,7 @@ export function DocsPage() {
           Getting Started
         </h1>
         <p className="text-base text-gray-600 leading-7">
-          Learn how to integrate @micropay/react into your React application for seamless Coinbase x402 payments.
+          Learn how to integrate x402-react into your React application for seamless Coinbase x402 payments.
         </p>
       </div>
 
@@ -64,18 +64,18 @@ export function DocsPage() {
         <section id="installation" className="scroll-mt-20">
           <h2 className="text-2xl font-semibold text-gray-900 mb-3 tracking-tight">Installation</h2>
           <div className="relative border border-gray-200 rounded-lg bg-gray-900 p-4 mb-4">
-            <CopyCodeButton text="npm install @micropay/react" />
+            <CopyCodeButton text="npm install x402-react" />
             <code className="text-sm text-gray-100 font-mono">
-              npm install @micropay/react
+              npm install x402-react
             </code>
           </div>
           <p className="text-gray-600 mb-4">
             Or using yarn or pnpm:
           </p>
           <div className="relative border border-gray-200 rounded-lg bg-gray-900 p-4 mb-4">
-            <CopyCodeButton text="yarn add @micropay/react\npnpm add @micropay/react" />
+            <CopyCodeButton text="yarn add x402-react\npnpm add x402-react" />
             <code className="text-sm text-gray-100 font-mono whitespace-pre">
-              yarn add @micropay/react{'\n'}pnpm add @micropay/react
+              yarn add x402-react{'\n'}pnpm add x402-react
             </code>
           </div>
         </section>
@@ -87,8 +87,8 @@ export function DocsPage() {
             Wrap your application with the <code className="bg-gray-100 px-2 py-1 rounded text-sm font-mono">X402Provider</code> and start using payment components.
           </p>
           <div className="relative border border-gray-200 rounded-lg bg-gray-900 p-4 mb-4 overflow-x-auto">
-            <CopyCodeButton text={`import { X402Provider, X402Button } from '@micropay/react';
-import '@micropay/react/styles';
+            <CopyCodeButton text={`import { X402Provider, X402Button } from 'x402-react';
+import 'x402-react/styles';
 
 function App() {
   return (
@@ -104,8 +104,8 @@ function App() {
   );
 }`} />
             <pre className="text-sm text-gray-100 font-mono">
-{`import { X402Provider, X402Button } from '@micropay/react';
-import '@micropay/react/styles';
+{`import { X402Provider, X402Button } from 'x402-react';
+import 'x402-react/styles';
 
 function App() {
   return (
@@ -193,7 +193,7 @@ function App() {
             Use the <code className="bg-gray-100 px-2 py-1 rounded text-sm font-mono">X402PaymentModal</code> component for full-featured payment flows with network and asset selection.
           </p>
           <div className="relative border border-gray-200 rounded-lg bg-gray-900 p-4 mb-4 overflow-x-auto">
-            <CopyCodeButton text={`import { X402PaymentModal } from '@micropay/react';
+            <CopyCodeButton text={`import { X402PaymentModal } from 'x402-react';
 
 function MyComponent() {
   const [isOpen, setIsOpen] = useState(false);
@@ -216,7 +216,7 @@ function MyComponent() {
   );
 }`} />
             <pre className="text-sm text-gray-100 font-mono">
-{`import { X402PaymentModal } from '@micropay/react';
+{`import { X402PaymentModal } from 'x402-react';
 
 function MyComponent() {
   const [isOpen, setIsOpen] = useState(false);
@@ -249,7 +249,7 @@ function MyComponent() {
             Display payment status visually with the <code className="bg-gray-100 px-2 py-1 rounded text-sm font-mono">PaymentStatusIndicator</code> component.
           </p>
           <div className="relative border border-gray-200 rounded-lg bg-gray-900 p-4 mb-4 overflow-x-auto">
-            <CopyCodeButton text={`import { PaymentStatusIndicator } from '@micropay/react';
+            <CopyCodeButton text={`import { PaymentStatusIndicator } from 'x402-react';
 
 function PaymentStatus({ status }) {
   return (
@@ -261,7 +261,7 @@ function PaymentStatus({ status }) {
   );
 }`} />
             <pre className="text-sm text-gray-100 font-mono">
-{`import { PaymentStatusIndicator } from '@micropay/react';
+{`import { PaymentStatusIndicator } from 'x402-react';
 
 function PaymentStatus({ status }) {
   return (
@@ -283,7 +283,7 @@ function PaymentStatus({ status }) {
             Display payment confirmations with the <code className="bg-gray-100 px-2 py-1 rounded text-sm font-mono">PaymentReceipt</code> component.
           </p>
           <div className="relative border border-gray-200 rounded-lg bg-gray-900 p-4 mb-4 overflow-x-auto">
-            <CopyCodeButton text={`import { PaymentReceipt } from '@micropay/react';
+            <CopyCodeButton text={`import { PaymentReceipt } from 'x402-react';
 
 function PaymentConfirmation({ receipt }) {
   return (
@@ -297,7 +297,7 @@ function PaymentConfirmation({ receipt }) {
   );
 }`} />
             <pre className="text-sm text-gray-100 font-mono">
-{`import { PaymentReceipt } from '@micropay/react';
+{`import { PaymentReceipt } from 'x402-react';
 
 function PaymentConfirmation({ receipt }) {
   return (
@@ -321,7 +321,7 @@ function PaymentConfirmation({ receipt }) {
             Allow users to select payment assets with the <code className="bg-gray-100 px-2 py-1 rounded text-sm font-mono">AssetSelector</code> component.
           </p>
           <div className="relative border border-gray-200 rounded-lg bg-gray-900 p-4 mb-4 overflow-x-auto">
-            <CopyCodeButton text={`import { AssetSelector } from '@micropay/react';
+            <CopyCodeButton text={`import { AssetSelector } from 'x402-react';
 
 function AssetSelection({ network, selectedAsset, onSelect }) {
   return (
@@ -333,7 +333,7 @@ function AssetSelection({ network, selectedAsset, onSelect }) {
   );
 }`} />
             <pre className="text-sm text-gray-100 font-mono">
-{`import { AssetSelector } from '@micropay/react';
+{`import { AssetSelector } from 'x402-react';
 
 function AssetSelection({ network, selectedAsset, onSelect }) {
   return (
@@ -355,7 +355,7 @@ function AssetSelection({ network, selectedAsset, onSelect }) {
             Use the <code className="bg-gray-100 px-2 py-1 rounded text-sm font-mono">useX402Payment</code> hook for programmatic payment handling.
           </p>
           <div className="relative border border-gray-200 rounded-lg bg-gray-900 p-4 mb-4 overflow-x-auto">
-            <CopyCodeButton text={`import { useX402Payment } from '@micropay/react';
+            <CopyCodeButton text={`import { useX402Payment } from 'x402-react';
 
 function MyComponent() {
   const { makePayment, status, error } = useX402Payment();
@@ -378,7 +378,7 @@ function MyComponent() {
   );
 }`} />
             <pre className="text-sm text-gray-100 font-mono">
-{`import { useX402Payment } from '@micropay/react';
+{`import { useX402Payment } from 'x402-react';
 
 function MyComponent() {
   const { makePayment, status, error } = useX402Payment();

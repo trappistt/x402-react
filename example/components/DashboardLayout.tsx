@@ -129,7 +129,7 @@ export function DashboardLayout({ children, currentPage, onPageChange }: Dashboa
                 />
                 <div className="hidden sm:flex items-center gap-1">
                   <span className="text-sm text-gray-400 group-hover:text-gray-600">/</span>
-                  <span className="text-lg font-semibold text-gray-900">@micropay/react</span>
+                  <span className="text-lg font-semibold text-gray-900">x402-react</span>
                 </div>
               </button>
             </div>

@@ -119,7 +119,7 @@ function App() {
     <X402Provider facilitator="0x1234567890123456789012345678901234567890">
       <div className="min-h-screen bg-gray-50 py-12 px-4">
         <div className="max-w-2xl mx-auto">
-          <h1 className="text-4xl font-bold mb-2">@micropay/react</h1>
+          <h1 className="text-4xl font-bold mb-2">x402-react</h1>
           <p className="text-gray-600 mb-8">
             React component library for Coinbase x402 HTTP 402 payments
           </p>

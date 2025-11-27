@@ -1,4 +1,4 @@
-# @micropay/react
+# x402-react
 
 A React component library specifically for Coinbase x402, making HTTP 402 payments easy.
 
@@ -12,18 +12,18 @@ A React component library specifically for Coinbase x402, making HTTP 402 paymen
 ## Installation
 
 ```bash
-npm install @micropay/react
+npm install x402-react
 # or
-yarn add @micropay/react
+yarn add x402-react
 # or
-pnpm add @micropay/react
+pnpm add x402-react
 ```
 
 ## Quick Start
 
 ```tsx
-import { X402Provider, X402Button } from '@micropay/react';
-import '@micropay/react/styles';
+import { X402Provider, X402Button } from 'x402-react';
+import 'x402-react/styles';
 
 function App() {
   return (
@@ -170,7 +170,7 @@ Component for selecting payment assets.
 Hook for programmatic payments.
 
 ```tsx
-import { useX402Payment } from '@micropay/react';
+import { useX402Payment } from 'x402-react';
 
 function MyComponent() {
   const { makePayment, retryPayment, status, error, reset, network, setNetwork } = useX402Payment();
@@ -225,7 +225,7 @@ function MyComponent() {
 Parse HTTP 402 responses according to x402 protocol:
 
 ```tsx
-import { parsePaymentInstructions, validatePaymentInstructions } from '@micropay/react';
+import { parsePaymentInstructions, validatePaymentInstructions } from 'x402-react';
 
 const instructions = await parsePaymentInstructions(response);
 if (instructions && validatePaymentInstructions(instructions)) {
@@ -238,7 +238,7 @@ if (instructions && validatePaymentInstructions(instructions)) {
 Interact with x402 facilitator API:
 
 ```tsx
-import { createFacilitatorClient } from '@micropay/react';
+import { createFacilitatorClient } from 'x402-react';
 
 const client = createFacilitatorClient(baseUrl, apiKey);
 const result = await client.submitPayment(payload);
@@ -250,7 +250,7 @@ const receipt = await client.waitForConfirmation(txHash, network);
 Build payment payloads from instructions:
 
 ```tsx
-import { buildPaymentPayload, validatePaymentPayload } from '@micropay/react';
+import { buildPaymentPayload, validatePaymentPayload } from 'x402-react';
 
 const payload = buildPaymentPayload(instructions, walletAddress);
 const validation = validatePaymentPayload(payload);
@@ -261,7 +261,7 @@ const validation = validatePaymentPayload(payload);
 Handle payment proofs and retry requests:
 
 ```tsx
-import { generatePaymentProof, retryRequestWithProof } from '@micropay/react';
+import { generatePaymentProof, retryRequestWithProof } from 'x402-react';
 
 const proof = generatePaymentProof(receipt);
 const response = await retryRequestWithProof(endpoint, proof, 'GET');
@@ -274,7 +274,7 @@ const response = await retryRequestWithProof(endpoint, proof, 'GET');
 Access payment history through the context:
 
 ```tsx
-import { useX402Context } from '@micropay/react';
+import { useX402Context } from 'x402-react';
 
 function PaymentHistory() {
   const { paymentHistory, clearPaymentHistory } = useX402Context();
@@ -303,7 +303,7 @@ function PaymentHistory() {
 Switch between networks dynamically:
 
 ```tsx
-import { useX402Payment } from '@micropay/react';
+import { useX402Payment } from 'x402-react';
 
 function NetworkSwitcher() {
   const { network, setNetwork } = useX402Payment();
@@ -338,7 +338,7 @@ import {
   getNetworkDisplayName,
   filterPaymentHistory,
   getTotalSpent,
-} from '@micropay/react';
+} from 'x402-react';
 
 // Format amount for display
 const formatted = formatAmount('0.01'); // "$0.01"
@@ -453,7 +453,7 @@ import type {
   PaymentResponse,
   X402ProviderProps,
   X402ButtonProps,
-} from '@micropay/react';
+} from 'x402-react';
 ```
 
 ## Styling
@@ -461,7 +461,7 @@ import type {
 The library uses Tailwind CSS. Make sure to import the styles:
 
 ```tsx
-import '@micropay/react/styles';
+import 'x402-react/styles';
 ```
 
 You can customize the button appearance using the `variant`, `size`, and `className` props.

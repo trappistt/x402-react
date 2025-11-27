@@ -837,7 +837,7 @@ function Showcase() {
             {/* Header */}
             <div className="text-center mb-16">
             <h1 className="text-4xl font-semibold text-gray-900 mb-4 tracking-tight">
-              @micropay/react
+              x402-react
             </h1>
             <p className="text-base text-gray-600 mb-2 leading-7">
               React Component Library for Coinbase x402 Payments
@@ -869,7 +869,7 @@ function Showcase() {
                 Built for the Coinbase x402 ecosystem
               </p>
               <p className="text-sm text-gray-600">
-                Install: <code className="bg-gray-50 border border-gray-200 px-3 py-1.5 rounded-md text-sm font-mono text-gray-900">npm install @micropay/react</code>
+                Install: <code className="bg-gray-50 border border-gray-200 px-3 py-1.5 rounded-md text-sm font-mono text-gray-900">npm install x402-react</code>
               </p>
             </div>
           </div>

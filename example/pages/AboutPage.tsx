@@ -8,7 +8,7 @@ export function AboutPage() {
           About
         </h1>
         <p className="text-base text-gray-600 leading-7">
-          Learn about @micropay/react and the Coinbase x402 payment protocol
+          Learn about x402-react and the Coinbase x402 payment protocol
         </p>
       </div>
 
@@ -55,12 +55,12 @@ export function AboutPage() {
 
         {/* Why We Created This */}
         <section className="scroll-mt-20">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-4 tracking-tight">Why We Created @micropay/react</h2>
+          <h2 className="text-2xl font-semibold text-gray-900 mb-4 tracking-tight">Why We Created x402-react</h2>
           <div className="space-y-6">
             <div className="p-6 border border-gray-200 rounded-lg bg-white shadow-sm">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Bridging the Gap Between Protocol and Practice</h3>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                While x402 provides a powerful protocol for programmatic payments, integrating it into React applications required significant boilerplate, payment state management, and error handling. We created @micropay/react to bridge this gap, providing developers with production-ready components and hooks that abstract away the complexity of the x402 protocol.
+                While x402 provides a powerful protocol for programmatic payments, integrating it into React applications required significant boilerplate, payment state management, and error handling. We created x402-react to bridge this gap, providing developers with production-ready components and hooks that abstract away the complexity of the x402 protocol.
               </p>
               <p className="text-gray-600 leading-relaxed">
                 Our goal is to make x402 payments as simple as adding a button to your React app—no need to understand the underlying HTTP 402 flow, payment payload construction, or facilitator verification. Just import a component and start accepting payments.
@@ -91,14 +91,14 @@ export function AboutPage() {
                 </li>
               </ul>
               <p className="text-gray-600 leading-relaxed">
-                @micropay/react makes this accessible to React developers, enabling them to participate in the programmatic commerce revolution with just a few lines of code.
+                x402-react makes this accessible to React developers, enabling them to participate in the programmatic commerce revolution with just a few lines of code.
               </p>
             </div>
 
             <div className="p-6 border border-gray-200 rounded-lg bg-white shadow-sm">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Solving Real-World Payment Challenges</h3>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                Traditional payment systems come with significant limitations that x402 and @micropay/react address:
+                Traditional payment systems come with significant limitations that x402 and x402-react address:
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                 <div className="p-4 bg-red-50 border border-red-100 rounded-lg">
@@ -112,7 +112,7 @@ export function AboutPage() {
                   </ul>
                 </div>
                 <div className="p-4 bg-green-50 border border-green-100 rounded-lg">
-                  <h4 className="font-medium text-green-900 mb-2">x402 + @micropay/react</h4>
+                  <h4 className="font-medium text-green-900 mb-2">x402 + x402-react</h4>
                   <ul className="text-sm text-green-700 space-y-1">
                     <li>• Fee-free USDC payments (via Coinbase facilitator)</li>
                     <li>• Simple React component integration</li>
@@ -129,9 +129,9 @@ export function AboutPage() {
           </div>
         </section>
 
-        {/* Why @micropay/react */}
+        {/* Why x402-react */}
         <section className="scroll-mt-20">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-6 tracking-tight">Why @micropay/react?</h2>
+          <h2 className="text-2xl font-semibold text-gray-900 mb-6 tracking-tight">Why x402-react?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 border border-gray-200 rounded-lg bg-white shadow-sm hover:shadow-md transition-shadow">
               <div className="flex items-center gap-3 mb-3">
@@ -288,7 +288,7 @@ export function AboutPage() {
           <h2 className="text-2xl font-semibold text-gray-900 mb-4 tracking-tight">License</h2>
           <div className="p-6 border border-gray-200 rounded-lg bg-white shadow-sm">
             <p className="text-gray-600 text-base leading-7">
-              @micropay/react is open source and available under the <span className="font-medium text-gray-900">MIT License</span>.
+              x402-react is open source and available under the <span className="font-medium text-gray-900">MIT License</span>.
             </p>
           </div>
         </section>

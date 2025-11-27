@@ -12,7 +12,7 @@ export default defineConfig(({ command }) => {
     plugins: [react()],
     resolve: {
       alias: {
-        '@micropay/react': resolve(__dirname, '../src'),
+        'x402-react': resolve(__dirname, '../src'),
       },
     },
     ...(isDev ? {} : {
