@@ -1,7 +1,7 @@
 {
   "installCommand": "npm install",
   "buildCommand": "if [ -f package.json ] && grep -q 'micropay-react-example' package.json; then npm install && npm run build; else cd example && npm install && npm run build; fi",
-  "outputDirectory": "example/dist",
+  "outputDirectory": "dist",
   "framework": "vite"
 }
 
