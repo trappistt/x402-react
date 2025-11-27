@@ -13,7 +13,10 @@ export function DashboardLayout({ children, currentPage, onPageChange }: Dashboa
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeItem, setActiveItem] = useState<string | null>(null);
 
-  const navigation = [
+  type NavItem = { name: string; page: 'docs' | 'components' | 'about'; sectionId: string | null };
+  type NavSection = { title: string; items: NavItem[] };
+
+  const navigation: NavSection[] = [
     {
       title: 'Getting Started',
       items: [
