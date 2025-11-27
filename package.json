@@ -41,7 +41,7 @@
   "bugs": {
     "url": "https://github.com/trappistt/x402-react/issues"
   },
-  "homepage": "https://github.com/trappistt/x402-react#readme",
+  "homepage": "https://x402-react.vercel.app/",
   "peerDependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0"

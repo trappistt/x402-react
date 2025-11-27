@@ -9,6 +9,10 @@ A React component library specifically for Coinbase x402, making HTTP 402 paymen
 - **Micropayment UX patterns** - Optimized for small, frequent payments
 - **Web3 payment integration** - Seamless blockchain payment handling
 
+## Documentation
+
+📚 **[Full Documentation & Examples](https://x402-react.vercel.app/)**
+
 ## Installation
 
 ```bash
@@ -503,6 +507,7 @@ MIT
 
 ## Resources
 
+- [x402-react Documentation](https://x402-react.vercel.app/) - Full documentation and examples
 - [Coinbase x402 Documentation](https://www.coinbase.com/en-ca/developer-platform/products/x402)
 - [Coinbase Developer Platform](https://docs.cdp.coinbase.com/)
 
