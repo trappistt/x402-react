@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+example/node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+__tests__/
+
+# Production / Build
+dist/
+build/
+*.tgz
+
+# Misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.log
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+verify-*.mjs
+
